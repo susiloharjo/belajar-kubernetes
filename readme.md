@@ -12,6 +12,5 @@
 ## TEST AND TROUBLESHOOT
 - kubectl port-forward service name-of-service accessport:insideport
 
-\`\`\`bash
-kubectl port-forward svc/service-nginx 8383:8383
-\`\`\`
+
+`kubectl port-forward svc/service-nginx 8383:8383`

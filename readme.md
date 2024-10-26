@@ -10,7 +10,7 @@
 - kubectl get services | kubectl get svc | kubectl get svc - wide | # to see running services 
 
 ## TEST AND TROUBLESHOOT
-- kubectl port-forward service name-of-service accessport:insideport
 
-
+- testing to run apps 
+`kubectl port-forward service name-of-service accessport:insideport`
 `kubectl port-forward svc/service-nginx 8383:8383`

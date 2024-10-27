@@ -13,5 +13,5 @@
 
 - testing to run apps 
 
-`kubectl port-forward service name-of-service accessport:insideport`
-`kubectl port-forward svc/service-nginx 8383:8383`
+- `kubectl port-forward service name-of-service accessport:insideport`
+- `kubectl port-forward svc/service-nginx 8383:8383`

@@ -32,6 +32,9 @@
 ## UPDATE IMAGE
 - kubectl set image deployment/<deployment-name> <container-name>=<new-image>
 
+## SHOW THE STATUS FOR UPDATE IMAGE
+- kubectl rollout status deployment/my-app
+
 ## ROLL BACK
 - kubectl rollout undo deployment/<deployment-name>
 

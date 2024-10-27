@@ -3,6 +3,12 @@ kind: Deployment
 metadata:
   name: aplikasi-nginx
 spec:
+  replicas: 3
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+      maxSurge: 1
   selector:
     matchLabels:
       app: aplikasi-nginx

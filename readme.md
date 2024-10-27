@@ -12,6 +12,8 @@
 ## TEST AND TROUBLESHOOT
 
 - testing to run apps 
-
 - `kubectl port-forward service name-of-service accessport:insideport`
 - `kubectl port-forward svc/service-nginx 8383:8383`
+
+- see logs of running pods
+- `kubectl logs namapods`
